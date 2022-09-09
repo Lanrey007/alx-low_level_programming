@@ -2,13 +2,11 @@
 /**
 * main - program compilation begins from main
 * Description: Program to print all possible combinations of numbers
-with no two numbers same in pairing
-* author: sammykingx
+* with no two numbers same in pairing
+* author: Lanrey007
 * Return: 0 means success
 */
-int main(void)
-{
-        int a, b;
+int main(voiint a, b;
 
         for (a = 48; a <=57; a++)
         {
@@ -25,3 +23,4 @@ int main(void)
         putchar('\n');
         return (0);
 }
+
