@@ -2,18 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - Entry point
-* author: Sammykingx
-* date:05-06-2022
-* Return: 0 (success)
-*/
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/**
- * main - this is where the program start running
- *
- * Return:returns zero if error and non zero if no errors
+* main - this is where the program start running
+*
+* Return:returns zero if error and non zero if no errors
 */
 int main(void)
 {
