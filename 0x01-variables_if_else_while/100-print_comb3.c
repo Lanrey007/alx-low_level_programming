@@ -6,7 +6,9 @@
 * author: Lanrey007
 * Return: 0 means success
 */
-int main(voiint a, b;
+int main(void)
+{
+        int a, b;
 
         for (a = 48; a <=57; a++)
         {
@@ -23,4 +25,3 @@ int main(voiint a, b;
         putchar('\n');
         return (0);
 }
-
