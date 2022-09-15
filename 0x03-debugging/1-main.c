@@ -3,7 +3,7 @@
 /**
 * main - causes an infinite loop
 * Return: 0
-to*/
+*/
 
 int main(void)
 {
