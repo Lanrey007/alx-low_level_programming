@@ -1,32 +1,22 @@
+#include "main.h"
+
 /**
-* _memset - a function that fills
-*         memory with a constant byte
+* _memset - Fill memory with a constant byte
+* @s: memory area to fill
+* @b: constant byte to fill
+* @n: bytes of memory area to fill
 *
-* @s: input pointer to char type
-*    represents the pointer to the
-*    block of memory to fill
-* @b: input variable of char type
-*    represents the character to
-*    fill s
-* @n: unsigned int variable
-*    the number of bytes to be filled
-*
-* Return: A pointer to the filled memory
-*         area @s
-*/ 
+* Return: the memory area filled
+*/
 
 char *_memset(char *s, char b, unsigned int n)
 {
-/**
-* declare an unsigned int
-* because we are storing a
-* value that will always be
-* non-negative (zero or positive)
-*/
-unsigned int i; 
+	unsigned int a;
 
-for (i = 0; i < n; i++)
-s[i] = b; 
+	for (a = 0; a < n; a++)
+	{
+		s[a] = b;
+	}
 
-return (s);
+	return (s);
 }
